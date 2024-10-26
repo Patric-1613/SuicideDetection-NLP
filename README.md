@@ -42,15 +42,15 @@ Exploratory Data Analysis (EDA) is a crucial step in understanding the underlyin
 Initially, we employed various preprocessing techniques and vectorization methods to classify the text data. The first set of results were:
 
 - **Count Vectorizer:**
-  - Accuracy: **91.60%**
+  - Accuracy: **86.16%**
   - This approach simply counted the occurrences of each word in the texts, which captured the basic features but may have missed the significance of word importance.
 
 - **TF-IDF Vectorizer:**
-  - Accuracy: **92.25%**
+  - Accuracy: **86.37%**
   - By considering the term frequency and inverse document frequency, this method gave more weight to less frequent but informative words, improving classification performance.
 
 - **Word2Vec Embeddings:**
-  - Accuracy: **90.64%**
+  - Accuracy: **78.63%**
   - While this method provided dense representations of words based on context, it performed slightly worse than the TF-IDF due to its reliance on more complex training processes and potential issues with dataset size.
 
 ## Improvements and New Results
@@ -68,13 +68,13 @@ After analyzing the initial results and conducting further experiments, we imple
 ### New Results:
 
 - **Count Vectorizer:**
-  - New Accuracy: **93.10%** (Improved)
+  - New Accuracy: **91.60%** (Improved)
   
 - **TF-IDF Vectorizer:**
-  - New Accuracy: **93.85%** (Improved)
+  - New Accuracy: **92.25%** (Improved)
   
 - **Word2Vec:**
-  - New Accuracy: **91.75%** (Improved)
+  - New Accuracy: **90.64%** (Improved)
 
 ## Conclusion
 
